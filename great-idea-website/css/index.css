@@ -66,9 +66,10 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 nav {
-	padding: 40px;
-	border: 5px;
-	margin: 10px;
+	margin: 10% 0.5%;
+}
+.logo {
+	display: inline-block;
 }
 
 a {
@@ -83,9 +84,15 @@ header {
 
 button {
 	font-size: 30px;
-	display: inline-block;
+	margin: 3%;
 }
 
+div {
+	padding: 2%;
+	margin: 2%;
+	width: 3%;
+	display: inline-block;
+}
 h1 {
 	font-size: 70px;
 	margin: 5%;
@@ -93,7 +100,7 @@ h1 {
 
 h2 {
 	font-size: 70px;
-	margin: 5%;
+	margin: 4%;
 }
 
 h3 {
@@ -102,32 +109,34 @@ h3 {
 }
 
 img {
-	display:inline-block;
+	margin: 0 0 0 26%;
+	display: inline-block;
 }
 
-div {
-	display:inline-block;
+.top {
+	width: 20%;
+	margin: 0 0 0 13%;
+	text-align: left;
+	display: inline-block;
 }
 
-.features {
-	display:inline-block;
-	margin: 2% 70% 2% 10%;
-
+.middle-img {
+	margin: 5% 11%;
 }
 
-.about {
-	display:inline-block;
-	margin: 2% 10% 2% 70%;
+.bottom {
+	margin: 0 0 0 10%;
+	width: 20%;
+	text-align: left;
+	display: inline-block;
 }
 
-.services {
-	display:inline-block;
+.contact {
+	margin: 5% 10%;
+	width: 20%;
 }
 
-.product {
-	display:inline-block;
-}
-
-.vision {
-	display:inline-block;
+footer {
+	margin: 5% 10%;
+	width: 20%;
 }
