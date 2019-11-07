@@ -55,12 +55,12 @@ table {
 html, body {
     height: 100%;
 	font-family: 'Titillium Web', sans-serif;
-	max-width: 1100px;	
+	max-width: 700px;	
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     margin-bottom: 15px;
 }
 
@@ -69,9 +69,14 @@ h1, h2, h3, h4, h5 {
 nav {
 	background: aqua;
 	position: fixed;
-	top: 0.25px;
 	width: 100%;
+	top: 0.25px;
 	z-index: 1;
+}
+
+a {
+	padding: 5%;
+	width: 100%;
 }
 
 .logo {
@@ -79,17 +84,14 @@ nav {
 	padding: 1%;
 }
 
-a {
-	padding: 5%;
-	width: 100%;
 }
 header {
 	margin: 15% 0 0 40%;
 }
 button {
-	font-size: 20px;
-	padding: 20px;
-	margin: 2% 7% 5% 7%;
+	font-size: 15px;
+	padding: 10px;
+	margin: 0 7% 5% 37%;
 }
 
 .line {
@@ -105,33 +107,33 @@ div {
 	width: 3%;
 	display: inline-block;
 }
-
 h1 {
-	font-size: 60px;	
-}
-
-h2 {
-	font-size: 60px;	
-}
-
-h3 {
 	font-size: 60px;
+	text-align: center;	
+	margin-left: 200px;
+	margin-top: 100px;
 }
 
 .top-image {
-	float: right;
-	width: 220px;
-	margin: 0 0 0 200px;
+	display: inline;
+	width: 25%;
+	margin-left: 65%;
+	margin-right: 0;
 }
 
-.top {
-	margin: 2%;
+.features {
+	margin-left: 20%;
 	width: 40%;
 	display: inline-block;
 	}
 
 .about {
+	width: 30%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	display: inline-block;
 	float: right;
+
 }
 
 .middle-img {
@@ -141,10 +143,12 @@ h3 {
 }
 
 .bottom {
-	margin: 4% 2% 0 11%;
-	width: 20%;
-	text-align: left;
+	margin-left: 20%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	width: 10%;
 	display: inline-block;
+	text-align: left;
 }
 
 .line2 {
@@ -155,12 +159,14 @@ h3 {
 }
 
 .contact {
-	margin: 5% 11%;
+	margin-left: 20%;
+	margin-top: 5%;
 	width: 20%;
 }
 
 footer {
-	margin: 5% 43%;
-	width: 20%;
+	margin-left: 60%;
+	margin-top: 5%;
+	width: 30%;
 	text-align: center;
 }
