@@ -85,16 +85,20 @@ nav {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 100%;
-	background: rgb(236, 233, 233);
+	background: #E42741;
 	padding-top: 3%;
 	padding-bottom: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
 }
 
 a {
 	text-decoration: none;
-	color: gray;
+	color: rgb(244, 247, 248);
 	padding-left: 1%;
 	padding-right: 1%;
+	font-size: 20px;
+	font-weight: 200;
 }
 
 hr {
@@ -104,8 +108,8 @@ hr {
 button {
 	font-size: 20px;
 	margin-left: 221px;
-	border-radius: 3px;
-	transition-duration: 0.4s;
+	border-radius: 5px;
+	padding: 3%;
 }
 
 .button:hover {
