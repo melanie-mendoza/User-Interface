@@ -53,14 +53,141 @@ table {
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Amatic SC', cursive;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+    font-family: 'Sacramento', cursive;
+    letter-spacing: 1.5px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+#jacket {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+body {
+	margin: 7%;
+}
+
+header {
+	width: 100%;
+	padding: 10px 20px 60px 20px;
+	padding-top: 30px;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	background: #E42741;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+.sticky {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(244, 247, 248);
+	padding-left: 1%;
+	padding-right: 1%;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+hr {
+	width: 100%;
+}
+
+button {
+	font-size: 20px;
+	margin-left: 221px;
+	border-radius: 5px;
+	padding: 3%;
+}
+
+.button:hover {
+    background-color: aquamarine;
+}
+
+h1 {
+	font-size: 65px;
+	text-align: center;	
+}
+
+.title {
+	width: 48%;	
+	margin-left: 2%;
+}
+
+.hero-section {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+.hero {
+	margin-left: 2px;
+}
+
+.main-topic {
+	display: flex;
+	flex-direction: row;
+	margin-top: 1%:
+	padding-bottom: 5%;
+	padding-top: 2%;
+}
+
+.middle-img {
+	width: 100%;
+	padding-top: 3%;
+	padding-bottom: 1%;
+}
+
+.features {
+	margin-right: 2%;
+}
+
+.copy  {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 3%;
+	padding-bottom: 6%;
+}
+
+.services {
+	margin-right: 2%;
+}
+
+.product {
+	margin-right: 2%;
+}
+
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 5%;
+}
